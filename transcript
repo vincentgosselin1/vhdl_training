@@ -1,0 +1,160 @@
+ls
+# 1bitcomparator.vhd  modelsim.ini  transcript                                                
+# 
+# work:
+# _info  _lib.qdb  _lib1_0.qdb  _lib1_0.qpg  _lib1_0.qtl  _vmake                
+cd ..
+# reading C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini
+ls
+# Bash on Ubuntu on Windows.lnk  Discord.lnk  ModelSim - Intel FPGA Starter Edition 10.5b (Quartus Prime 17.1).lnk  Nios II Command Shell (Quartus Prime 17.1).lnk  Nios II Software Build Tools for Eclipse (Quartus Prime 17.1).lnk  Programmer (Quartus Prime 17.1).lnk  Quartus (Quartus Prime 17.1) Lite Edition.lnk          
+# 
+# Documents:
+# ETS  Github  PrimeSinadad  Quartus_lite17_1_install  firefox_profile  wallpapers                
+# 
+# vhdl_training:
+# 1bitcomparator.vhd  modelsim.ini  transcript  work                                  
+com
+# ambiguous command name "com": compare compareOptionsRule compareSetDefaults compile compileDialog
+ls
+# Bash on Ubuntu on Windows.lnk  Discord.lnk  ModelSim - Intel FPGA Starter Edition 10.5b (Quartus Prime 17.1).lnk  Nios II Command Shell (Quartus Prime 17.1).lnk  Nios II Software Build Tools for Eclipse (Quartus Prime 17.1).lnk  Programmer (Quartus Prime 17.1).lnk  Quartus (Quartus Prime 17.1) Lite Edition.lnk          
+# 
+# Documents:
+# ETS  Github  PrimeSinadad  Quartus_lite17_1_install  firefox_profile  wallpapers                
+# 
+# vhdl_training:
+# 1bitcomparator.vhd  modelsim.ini  transcript  work                                  
+ls
+# Bash on Ubuntu on Windows.lnk  Discord.lnk  ModelSim - Intel FPGA Starter Edition 10.5b (Quartus Prime 17.1).lnk  Nios II Command Shell (Quartus Prime 17.1).lnk  Nios II Software Build Tools for Eclipse (Quartus Prime 17.1).lnk  Programmer (Quartus Prime 17.1).lnk  Quartus (Quartus Prime 17.1) Lite Edition.lnk          
+# 
+# Documents:
+# ETS  Github  PrimeSinadad  Quartus_lite17_1_install  firefox_profile  wallpapers                
+# 
+# vhdl_training:
+# 1bitcomparator.vhd  modelsim.ini  transcript  work                                  
+pwd
+# C:/Users/Vincent Gosselin/Desktop
+cd vhdl_training
+# reading modelsim.ini
+ls
+# 1bitcomparator.vhd  modelsim.ini  transcript                                                
+# 
+# work:
+# _info  _lib.qdb  _lib1_0.qdb  _lib1_0.qpg  _lib1_0.qtl  _vmake                
+compile 1bitcomparator.vhd
+# wrong # args: should be "compile w cmd ..."
+com 1bitcomparator.vhd
+# ambiguous command name "com": compare compareOptionsRule compareSetDefaults compile compileDialog
+vcom -work work {C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:16:50 on Feb 01,2018
+# vcom -reportprogress 300 -work work C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:16:50 on Feb 01,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vcom failed.
+vsim work.eq1
+# vsim work.eq1 
+# Start time: 23:16:58 on Feb 01,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.eq1(sop_arch)
+# Error opening C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd.vhd
+# Path name 'C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd.vhd' doesn't exist.
+quit -sim
+# End time: 23:17:23 on Feb 01,2018, Elapsed time: 0:00:25
+# Errors: 1, Warnings: 0
+vlog -work {C:/Users/Vincent Gosselin/Desktop/vhdl_training/work} -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:17:30 on Feb 01,2018
+# vlog -reportprogress 300 -work C:/Users/Vincent Gosselin/Desktop/vhdl_training/work -refresh -force_refresh 
+# -- Skipping entity eq1
+# End time: 23:17:30 on Feb 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work {C:/Users/Vincent Gosselin/Desktop/vhdl_training/work} -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:17:30 on Feb 01,2018
+# vcom -reportprogress 300 -work C:/Users/Vincent Gosselin/Desktop/vhdl_training/work -refresh -force_refresh 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eq1
+# -- Compiling architecture sop_arch of eq1
+# End time: 23:17:30 on Feb 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+ls
+# 1bitcomparator.vhd  modelsim.ini  transcript                                                
+# 
+# work:
+# _info  _lib.qdb  _lib1_0.qdb  _lib1_0.qpg  _lib1_0.qtl  _vmake                
+vcom -reportprogress 300 -work work {C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:17:53 on Feb 01,2018
+# vcom -reportprogress 300 -work work C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eq1
+# -- Compiling architecture sop_arch of eq1
+# End time: 23:17:53 on Feb 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:17:58 on Feb 01,2018
+# vcom -reportprogress 300 -work work C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eq1
+# -- Compiling architecture sop_arch of eq1
+# End time: 23:17:58 on Feb 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.eq1
+# vsim work.eq1 
+# Start time: 23:18:07 on Feb 01,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.eq1(sop_arch)
+quit -sim
+# End time: 23:18:14 on Feb 01,2018, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+vcom -work work {C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:18:39 on Feb 01,2018
+# vcom -reportprogress 300 -work work C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eq1
+# -- Compiling architecture sop_arch of eq1
+# End time: 23:18:39 on Feb 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom 1bitcomparator.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:18:55 on Feb 01,2018
+# vcom -reportprogress 300 1bitcomparator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eq1
+# -- Compiling architecture sop_arch of eq1
+# End time: 23:18:55 on Feb 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+ls
+# 1bitcomparator.vhd  modelsim.ini  transcript                                                
+# 
+# work:
+# _info  _lib.qdb  _lib1_0.qdb  _lib1_0.qpg  _lib1_0.qtl  _vmake                
+vcom 1bitcomparator.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:11 on Feb 01,2018
+# vcom -reportprogress 300 1bitcomparator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eq1
+# -- Compiling architecture sop_arch of eq1
+# End time: 23:19:11 on Feb 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

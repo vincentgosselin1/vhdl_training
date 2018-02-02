@@ -1,0 +1,122 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vincent Gosselin/Desktop/vhdl_training
+Eeq1
+Z1 w1517546647
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd
+Z5 FC:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd
+l0
+L6
+Vd0Hd4CS7KzUl64M9<@[Xm3
+!s100 O>bgiHYHgeoJiFYA_:FE_0
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1517547306
+!i10b 1
+Z8 !s108 1517547306.000000
+Z9 !s90 -reportprogress|300|C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd|
+Z10 !s107 C:/Users/Vincent Gosselin/Desktop/vhdl_training/1bitcomparator.vhd|
+!i113 1
+Z11 tExplicit 1 CvgOpt 0
+Asop_arch
+R2
+R3
+DEx4 work 3 eq1 0 22 d0Hd4CS7KzUl64M9<@[Xm3
+l15
+L13
+VT`HdCUDaFY<>keg0?Gm772
+!s100 n6O4VFOV5nB`n<<1c@cS41
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Eeq2
+Z12 w1517547287
+R2
+R3
+R0
+Z13 8C:/Users/Vincent Gosselin/Desktop/vhdl_training/2bitcomparator
+Z14 FC:/Users/Vincent Gosselin/Desktop/vhdl_training/2bitcomparator
+l0
+L7
+VKbYMaI6ifWZ9P>2QTM;lV2
+!s100 <^nNVAi;@mo825LBZMZb81
+R6
+32
+Z15 !s110 1517547308
+!i10b 1
+Z16 !s108 1517547308.000000
+Z17 !s90 -reportprogress|300|C:/Users/Vincent Gosselin/Desktop/vhdl_training/2bitcomparator|
+Z18 !s107 C:/Users/Vincent Gosselin/Desktop/vhdl_training/2bitcomparator|
+!i113 1
+R11
+Astruct_arch
+R2
+R3
+Z19 DEx4 work 3 eq2 0 22 KbYMaI6ifWZ9P>2QTM;lV2
+l24
+L14
+V=198_XQHLeEgI=m96UQ`52
+!s100 nDhz>ng_l[UH^SfzmJRRR0
+R6
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+Eeq2_testbench
+Z20 w1517547932
+R2
+R3
+R0
+Z21 82bitcomparator_tb
+Z22 F2bitcomparator_tb
+l0
+L8
+ViY8N6ba^k@A3:=U]EKFa`2
+!s100 T7WVmGgCf=?h0m=FT@ZD]0
+R6
+32
+Z23 !s110 1517547938
+!i10b 1
+Z24 !s108 1517547938.000000
+Z25 !s90 -reportprogress|300|2bitcomparator_tb|
+Z26 !s107 2bitcomparator_tb|
+!i113 1
+R11
+Atb_arch
+R19
+R2
+R3
+Z27 DEx4 work 13 eq2_testbench 0 22 iY8N6ba^k@A3:=U]EKFa`2
+l14
+L11
+V3EPNYeLE2TfSI[?`2FOM41
+!s100 W7A7hjBOi:PbEGgnj6KRL1
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
